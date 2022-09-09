@@ -6,7 +6,7 @@
     <!-- LESSON LIST -->
     <mat-list>
       <mat-list-item
-        *ngFor="let lesson of courseLessons"
+        *ngFor="let lesson of lessons"
         (click)="selectLesson(lesson)"
       >
         <h3>{{ lesson.title }}</h3>
